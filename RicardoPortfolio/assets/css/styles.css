@@ -42,8 +42,7 @@ img {
     .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
-        background: linear-gradient(rgba(132, 149, 177, 0.665),rgba(132, 149, 177, 0.659)), url(../images/filip-zrnzevic-QsWG0kjPQRY-unsplash.jpg);
-        background-size: cover;
+        background: linear-gradient(rgba(132, 149, 177, 0.665),rgba(132, 149, 177, 0.659))
+    
 }
 }
-

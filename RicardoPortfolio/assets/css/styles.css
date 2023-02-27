@@ -4,8 +4,8 @@
     --color-body: #b6cbce;
     --color-heading: #eef3db;
     --color-base:#8495b1;
-    --color-base2:#5e6577;
-    --color-brand: #e0f780;
+    --color-base2:#6683a0;
+    --color-brand: #286298;
     --color-brand2: #deff58;
     --sidbar-width: 240px;
     --font-base: "Bai Jamjuree";
@@ -20,6 +20,15 @@ body {
 h1,h2,h3,h4,h5,h6 {
     color: var(--color-heading);
     font-weight: 700;
+}
+
+.navbar .nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+}
+.navbar .nav-link:hover {
+    color: var(--color-brand);
 }
 
 a {
@@ -42,7 +51,9 @@ img {
     .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
-        background: linear-gradient(rgba(132, 149, 177, 0.665),rgba(132, 149, 177, 0.659))
-    
+        background: linear-gradient(rgba(132, 149, 177, 0.665),rgba(132, 149, 177, 0.659)), url(../images/filip-zrnzevic-QsWG0kjPQRY-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+        
 }
 }

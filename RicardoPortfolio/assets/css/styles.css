@@ -119,3 +119,7 @@ img {
 .link-custom:hover::after {
     width: 100%;
 }
+
+.text-brand {
+    font-size: 25px;
+}
